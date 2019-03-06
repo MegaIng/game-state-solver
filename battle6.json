@@ -1,0 +1,50 @@
+{
+  "cards": [
+    {
+      "name": "Bomb",
+      "can_defend": true,
+      "can_attack": false
+    },
+    {
+      "name": "Ninja",
+      "can_defend": true,
+      "can_attack": true
+    },
+    {
+      "name": "Samurai",
+      "can_defend": true,
+      "can_attack": true
+    }
+  ],
+  "outcomes": [
+    {
+      "attack": "Ninja",
+      "defend": "Bomb",
+      "outcome": "attack"
+    },{
+      "attack": "Ninja",
+      "defend": "Ninja",
+      "outcome": "attack"
+    },
+    {
+      "attack": "Ninja",
+      "defend": "Samurai",
+      "outcome": "defend"
+    },
+    {
+      "attack": "Samurai",
+      "defend": "Bomb",
+      "outcome": "defend"
+    },
+    {
+      "attack": "Samurai",
+      "defend": "Ninja",
+      "outcome": "attack"
+    },
+    {
+      "attack": "Samurai",
+      "defend": "Samurai",
+      "outcome": "tie"
+    }
+  ]
+}
